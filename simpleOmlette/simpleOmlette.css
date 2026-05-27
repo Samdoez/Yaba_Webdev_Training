@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: garet;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pad{
+    padding: 1%;
+}
+.mar{
+    margin: 1%;
+}
+.cont{
+    background-color: hsl(34, 100%, 79%);
+    height: 100vh;
+}
+.card{
+    width: 25vw;
+    height: 92vh;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.div-img{
+    width: 100%;
+    height: 25vh;
+    border-radius: 10px;
+    background-color: hsl(34, 86%, 22%);
+    margin-bottom: 10px;
+}
+.div-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.small{
+    font-size: 0.8rem;
+}
+.preparation{
+    margin-top: 1%;
+    background-color: hsl(35, 100%, 91%);
+    padding: 2%;
+    border-radius: 4px;
+}
+.preparation p{
+    color: hsl(34, 86%, 22%);
+    font-weight: 600;
+}
+.preparation ul, .preparation ol{
+    padding-left: 10%;
+    font-size: 0.8rem;
+}
+ul ::marker, ol ::marker{
+    color: hsl(34, 86%, 22%);
+}
+.Instruccion{
+    background-color: white;
+}
